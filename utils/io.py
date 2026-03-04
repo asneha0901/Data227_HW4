@@ -4,8 +4,8 @@ from vega_datasets import data
 import numpy as np
 
 
-y1o = pd.read_csv("/Users/snehaagarwal/Data227_HW4/data/2324.csv")
-y2o = pd.read_csv("/Users/snehaagarwal/Data227_HW4/data/2425.csv")
+y1o = pd.read_csv("data/2324.csv")
+y2o = pd.read_csv("data/2425.csv")
 
 @st.cache_data
 def clean_up(df: pd.DataFrame) -> pd.DataFrame:
